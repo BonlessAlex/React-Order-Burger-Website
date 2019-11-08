@@ -1,0 +1,16 @@
+.NavigationItems {
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height:100%;
+}
+
+/* In mobile modal. the flow of navigation items becaomes row. */
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+    }
+}
